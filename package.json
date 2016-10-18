@@ -1,0 +1,41 @@
+{
+  "name": "gemini-localip",
+  "version": "1.0.0",
+  "description": "Gemini plugin to dynamically set root url to local ip address",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "precommit": "npm run lint",
+    "commitmsg": "conventional-changelog-lint -e",
+    "release": "standard-version"
+  },
+  "author": "Sergey Tatarintsev <tatarincev.serg@yandex.ua> (https://github.com/SevInf)",
+  "license": "MIT",
+  "devDependencies": {
+    "conventional-changelog-lint": "^1.0.1",
+    "gemini": "^4.12.2",
+    "husky": "^0.11.9",
+    "standard-version": "^3.0.0"
+  },
+  "dependencies": {
+    "conventional-changelog-lint": "^1.0.1",
+    "gemini": "^4.12.2",
+    "standard-version": "^3.0.0",
+    "husky": "^0.11.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/researchgate/gemini-localip.git"
+  },
+  "keywords": [
+    "gemini-plugin",
+    "ip",
+    "local",
+    "gemini"
+  ],
+  "bugs": {
+    "url": "https://github.com/researchgate/gemini-localip/issues"
+  },
+  "homepage": "https://github.com/researchgate/gemini-localip#readme"
+}
