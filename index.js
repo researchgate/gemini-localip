@@ -1,8 +1,9 @@
 const url = require('url');
 const getIp = require('./lib/get-ip');
+
 module.exports = function(gemini, options) {
     gemini.on('startRunner', () => updateRootUrl(gemini.config, options.port));
-}
+};
 
 function updateRootUrl(config, port) {
     return Promise.all(
@@ -20,6 +21,6 @@ function updateBrowserRootUrl(browserConfig, port) {
                 protocol: 'http',
                 hostname: ip,
                 port: port
-            })
+            });
         });
 }
