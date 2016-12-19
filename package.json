@@ -18,7 +18,7 @@
     "eslint-config-gemini-testing": "^2.4.0",
     "gemini": "^4.12.2",
     "husky": "^0.12.0",
-    "standard-version": "^3.0.0"
+    "standard-version": "^4.0.0"
   },
   "peerDependencies": {
     "gemini": "^4.12.2"
