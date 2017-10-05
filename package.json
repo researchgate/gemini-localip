@@ -15,7 +15,7 @@
   "devDependencies": {
     "conventional-changelog-lint": "^1.0.1",
     "eslint": "^3.8.1",
-    "eslint-config-gemini-testing": "^2.4.0",
+    "eslint-config-gemini-testing": "^2.5.0",
     "gemini": "^4.12.2",
     "husky": "^0.13.1",
     "standard-version": "^4.0.0"
