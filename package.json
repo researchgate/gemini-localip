@@ -13,7 +13,7 @@
   "author": "Sergey Tatarintsev <tatarincev.serg@yandex.ua> (https://github.com/SevInf)",
   "license": "MIT",
   "devDependencies": {
-    "conventional-changelog-lint": "^1.0.1",
+    "conventional-changelog-lint": "^2.0.0",
     "eslint": "^5.0.0",
     "eslint-config-gemini-testing": "^2.4.0",
     "husky": "^0.14.0",
