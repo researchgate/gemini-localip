@@ -16,7 +16,7 @@
     "conventional-changelog-lint": "^2.0.0",
     "eslint": "^5.0.0",
     "eslint-config-gemini-testing": "^2.4.0",
-    "husky": "^0.14.0",
+    "husky": "^1.1.2",
     "standard-version": "^4.0.0"
   },
   "peerDependencies": {
